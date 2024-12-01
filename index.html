@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sriracha&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./script.js"></script>
+    <title>My Quiz-App</title>
+  </head>
+  <body>
+    <h1>"Quizify" your knowledge</h1>
+    <div class="quiz-box">
+      <h2 class="quiz-question" id="quizQestion">QUIZFRAGE</h2>
+      <div class="answers-box">
+        <button id="answerA" onclick="clickAnswer('answerA')">ANTWORT A</button>
+        <button id="answerB" onclick="clickAnswer('answerB')">ANTWORT B</button>
+        <button id="answerC" onclick="clickAnswer('answerC')">ANTWORT C</button>
+        <button id="answerD" onclick="clickAnswer('answerD')">ANTWORT D</button>
+      </div>
+    </div>
+    <div class="footer">
+      <button onclick="showCorrectAnswer()">Lösung</button>
+      <button onclick="nextQuestion()">nächste Frage</button>
+    </div>
+  </body>
+</html>

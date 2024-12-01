@@ -1,0 +1,62 @@
+h1 {
+  font-family: "Sriracha", cursive;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 40px;
+}
+h2 {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  font-size: 24px;
+}
+button {
+  font-family: "Open Sans", sans-serif;
+  background-color: #efebeb;
+  border-radius: 10px;
+  height: 40px;
+}
+button:hover {
+  background-color: lightgrey;
+}
+.quiz-box {
+  border-style: solid;
+  border-width: 3px;
+  border-color: #efebeb;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.answers-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.answers-box button {
+  height: 4rem;
+}
+
+.answer-right {
+  background-color: greenyellow;
+}
+
+.answer-right:hover {
+  background-color: greenyellow;
+}
+
+.answer-wrong {
+  background-color: red;
+}
+
+.answer-wrong:hover {
+  background-color: red;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.footer button {
+  min-width: 150px;
+}
